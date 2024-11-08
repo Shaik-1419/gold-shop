@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold Shop - Shop Gold Jewelry and Coins</title>
+  <link rel="stylesheet" href="gold.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1>Gold Shop</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#cart">Cart <span id="cart-count">0</span></a></li>
+        <li><a href="#contact">Contact</a></li> <!-- Link to the Contact Section -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Welcome to Gold Shop</h2>
+    <p>Exclusive Collection of Gold Jewelry, Bars, and Coins. Shop Now!</p>
+  </section>
+
+  <!-- Product Section -->
+  <section id="products" class="products">
+    <h2>Our Exclusive Products</h2>
+    <div class="product-list">
+      <!-- Product Item -->
+      <div class="product" data-id="1">
+        <img src="https://www.chidambaramgoldcovering.com/image/cache/catalog/ChidambaramGoldCovering/necklace/nckn2288-latest-bridal-kerala-design-necklace-for-ladies-one-gram-gold-jewellery-0001-850x1000.jpg" alt="Gold Necklace">
+        <h3>Gold Necklace</h3>
+        <p>Elegant gold necklace made with 24k gold.</p>
+        <p><strong>$1,500</strong></p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product Item -->
+      <div class="product" data-id="2">
+        <img src="https://www.ambery.in/live/img/business_product/xnJmHbH6AV_20230607181735.jpg" alt="Gold Bracelet">
+        <h3>Gold Bracelet</h3>
+        <p>Beautiful bracelet made with pure gold.</p>
+        <p><strong>$800</strong></p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product Item -->
+      <div class="product" data-id="3">
+        <img src="https://kinclimg9.bluestone.com/f_webp,c_scale,w_1024,b_rgb:ffffff/product/20gms995LM_YAA24XXXXXXXXXXXX_ABCD00-fr-1024-v5.jpg" alt="Gold Coin">
+        <h3>Gold Coin</h3>
+        <p>Solid 1 oz gold coin for investment or collection.</p>
+        <p><strong>$2,000</strong></p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- More products can be added similarly -->
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="cart">
+    <h2>Your Cart</h2>
+    <div class="cart-items">
+      <p id="empty-cart">Your cart is empty.</p>
+    </div>
+    <div class="cart-total">
+      <p>Total: <span id="total-price">$0</span></p>
+      <button id="checkout">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to contact us.</p>
+    <div class="contact-details">
+      <p><strong>Phone:</strong> +1 234 567 890</p>
+      <p><strong>Email:</strong> ssb@goldshop.com</p>
+      <p><strong>Address:</strong> 123 Gold shop street, INDIA</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Gold Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="gold.js"></script>
+</body>
+</html>
